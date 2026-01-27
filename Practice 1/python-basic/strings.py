@@ -1,6 +1,4 @@
 #1
-a="He's the imposter"
-print(a)
 print("His name is'Freddy'")
 print('His name is "Freddy"')
 b = """To be, or not to be, that is the question (Hamlet),
@@ -23,5 +21,21 @@ print(a[11:])
 print(a[-7:-2])
 print(a.upper())
 print(a.lower())
+print(a.replace("e", "a"))
+print(a.split(" "))
 
 #3
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)
+
+#4
+price = 59
+txt = f"The price is {price:.2f} dollars"
+print(txt)
+txt1 = f"The price is {20 * 59} dollars"
+print(txt1)
+
+#5
+txt2 = "We are the so-called \"Vikings\" from the north."
